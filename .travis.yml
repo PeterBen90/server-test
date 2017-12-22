@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: avpc3ydcZbbFzh01JyyHSTiPbhonVSw9wgOQSjti/coYf7/p5nenVwasVTVZyj9A8TGHjUJdbM9w0sWk+FNdtFweVUwqFvOKFTJ3b7jpD31Lh/beBCY4Kv5/fS35ty7RYag2+nCIoDNxYAd4kA9KIdPO1yLxkXXTtEqmiLLj0BqRoGqUgW4mWCuMFLbz+6ahvI/pVau2FWBwI99UBJogKPYiZg5HeKHmg8JwgFKwSmp9KqyHanrJrAtD22Ctj2+RZWFt6tSSv9S4a5890bPuHfm6i6tior9ENUuwUGW7oGT+iagrYFBrUCGjxNbmpEX0lL40Q5ssVbZAshhzXGrnYf0PdX6GapNBNqqz+3c6f7C/fNEP+HumixbW7ndWIj2RPdOGaJLGnu5WLUn8Xv2d16Tiq/1q0ZppicOarjFlMkIJMGGpb5VYe27uNu6ysWp0b6DKW+jvjnlAkMi/CZhis7PIXZiBctqqUOAIer0kj59FNCN/TBXej9rAkrZD/rq9plltYxk3Y2kJisdeRManPbA+CVlggHXlUFgQZAqPrWmkmtT34fex9bJ8DjWkd2s14VpGHz1Y0kxacGbYs0izcrBYUACMd82nFs3wFp7TUbwWh1+VYeJ4MsPjJ3JqdlAMsSPQy/tN/BP32DKApOfks5CDDTG7Izqk9gFH+vjAAoY=
+  app: enigmatic-hollows-47159
+  on:
+    repo: raysmithdev/server-test
